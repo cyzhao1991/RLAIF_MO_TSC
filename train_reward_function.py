@@ -1,9 +1,4 @@
 import os
-# os.environ["OPENAI_API_KEY"]="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"
-# os.environ["GEMINI_API_KEY"]="AIzaSyAR5hGVYhG8FAItSPyIoDWLc12YJ4DbaRc"
-# os.environ['SUMO_HOME'] = '/home/jovyan/sumo/sumo-install'
-# os.environ['LD_LIBRARY_PATH'] = os.environ.get('LD_LIBRARY_PATH', '') + ':/home/jovyan/sumo/icu-install/lib:/home/jovyan/sumo/xerces-install/lib'
-# os.environ['PATH'] = os.environ.get('PATH', '') + ':/home/jovyan/sumo/sumo-install/bin'
 from reward_model import RewardModel
 
 from omegaconf import OmegaConf
